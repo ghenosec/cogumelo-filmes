@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cogumelo Filmes - Website
 
-## Getting Started
+Um site institucional moderno e responsivo para a **Cogumelo Filmes**, empresa de produção audiovisual especializada em filmes publicitários, produções independentes e pós-produção.
 
-First, run the development server:
+## 🎬 Sobre o Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+A Cogumelo Filmes é uma empresa nascida em abril de 2013, com a ideia de um cogumelo com propriedades alucinógenas, se juntando ao nome e slogan para formar a **Cogumelo - Filmes Alucinantes**. O site apresenta os serviços da empresa, portfólio de trabalhos e facilita o contato com clientes através de WhatsApp.
+
+### ✨ Características
+
+- **Design Moderno**: Interface limpa e profissional com tema escuro
+- **Totalmente Responsivo**: Adaptado para desktop, tablet e mobile
+- **Portfólio Interativo**: Galeria de vídeos com modal de reprodução
+- **Contato Direto**: Integração com WhatsApp para comunicação rápida
+- **Localização**: Mapa integrado mostrando a localização da empresa
+- **Performance Otimizada**: Carregamento rápido com Next.js e Turbopack
+
+## 🛠️ Tecnologias Utilizadas
+
+### Frontend
+- **[Next.js 15.5.6](https://nextjs.org/)** - Framework React com App Router
+- **[React 19.1.0](https://react.dev/)** - Biblioteca para interfaces de usuário
+- **[TypeScript 5](https://www.typescriptlang.org/)** - Tipagem estática para JavaScript
+- **[Tailwind CSS 4](https://tailwindcss.com/)** - Framework CSS utilitário
+
+### Estilização e Design
+- **[Poppins](https://fonts.google.com/specimen/Poppins)** - Fonte principal (Google Fonts)
+- **[Lucide React](https://lucide.dev/)** - Ícones modernos e consistentes
+- **[Heroicons](https://heroicons.com/)** - Ícones SVG otimizados
+
+### Desenvolvimento
+- **[Turbopack](https://turbo.build/pack)** - Bundler ultra-rápido para desenvolvimento
+- **[ESLint](https://eslint.org/)** - Linter para qualidade de código
+- **[PostCSS](https://postcss.org/)** - Processador CSS
+
+### Integrações
+- **Google Maps** - Mapa de localização da empresa
+- **WhatsApp API** - Integração para contato direto
+
+## 📁 Estrutura do Projeto
+
+```
+cogumelo-filmes/
+├── app/
+│   ├── components/          # Componentes React
+│   │   ├── Header.tsx      # Cabeçalho com navegação
+│   │   ├── Hero.tsx        # Seção principal com vídeo
+│   │   ├── About.tsx       # Sobre a empresa
+│   │   ├── Services.tsx    # Serviços oferecidos
+│   │   ├── Portfolio.tsx   # Galeria de trabalhos
+│   │   ├── Contact.tsx     # Formulário de contato
+│   │   └── Footer.tsx      # Rodapé com informações
+│   ├── globals.css         # Estilos globais e Tailwind
+│   ├── layout.tsx          # Layout principal
+│   └── page.tsx            # Página inicial
+├── public/
+│   ├── images/             # Imagens e logos
+│   └── videos/             # Vídeos do portfólio
+└── ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📱 Seções do Site
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🏠 Hero
+- Vídeo de fundo com overlay
+- Título principal e descrição
+- Call-to-action para contato
 
-## Learn More
+### ℹ️ Sobre
+- História da empresa desde 2013
+- Descrição dos valores e missão
+- Imagem representativa da equipe
 
-To learn more about Next.js, take a look at the following resources:
+### 🎯 Serviços
+- **Produção Publicitária**: Filmes para marcas
+- **Produção Independente**: Suporte a cineastas
+- **Pós-Produção**: Edição, color grading e VFX
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🎬 Portfólio
+- Galeria de trabalhos realizados
+- Modal de reprodução de vídeos
+- Links para redes sociais
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 📞 Contato
+- Botão direto para WhatsApp
+- Integração com API do WhatsApp
+- Mensagem pré-formatada
 
-## Deploy on Vercel
+### 🗺️ Footer
+- Mapa da localização (Uberlândia, MG)
+- Informações de contato
+- Links para redes sociais
+- Copyright
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Design System
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Cores
+- **Fundo Principal**: `#0A0A0A` (Preto)
+- **Fundo Secundário**: `#1A1A1A` (Cinza escuro)
+- **Azul Principal**: `#4A83C0` (Azul da marca)
+- **Texto Principal**: `#FFFFFF` (Branco)
+- **Texto Secundário**: `#A9A9A9` (Cinza claro)
+
+### Tipografia
+- **Fonte Principal**: Poppins (300-900)
+- **Títulos**: Poppins Bold/Extrabold
+- **Corpo**: Poppins Regular
+
+
+## 🌐 Deploy
+
+O projeto está otimizado para deploy em:
+- **Vercel** 
+
+
+## 📄 Licença
+
+© 2025 Cogumelo Filmes. Todos os direitos reservados.
+
+---
+
+**Desenvolvido com ❤️ para Cogumelo Filmes**
