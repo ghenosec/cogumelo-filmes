@@ -3,17 +3,14 @@ import React from 'react';
 const Hero: React.FC = () => {
   return (
     <section id="home" className="relative h-[70vh] w-full flex items-center justify-center text-white">
-      {/* Overlay para escurecer o vídeo e melhorar legibilidade com um leve tom azulado */}
       <div className="absolute inset-0 bg-gradient-to-t from-dark-bg via-dark-bg/80 to-dark-bg/60 z-10"></div>
-      
-      {/* Vídeo de fundo - Certifique-se de ter este arquivo em public/videos/ */}
       <video 
         autoPlay 
         loop 
         muted 
-        playsInline // Importante para iOS autoplay
+        playsInline 
         className="absolute inset-0 object-cover w-full h-full"
-        poster="/images/hero-poster.jpg" // Imagem de fallback para mobile ou carregamento - em public/images/
+        poster="/images/loading.png" 
       >
         <source src="/videos/cogumelo-reel.mp4" type="video/mp4" />
         Seu navegador não suporta a tag de vídeo.
