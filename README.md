@@ -1,4 +1,4 @@
-# Cogumelo Filmes - Website
+# 🍄 Cogumelo Filmes - Website
 
 Um site institucional moderno e responsivo para a **Cogumelo Filmes**, empresa de produção audiovisual especializada em filmes publicitários, produções independentes e pós-produção.
 
