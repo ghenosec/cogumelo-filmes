@@ -37,6 +37,12 @@ A Cogumelo Filmes é uma empresa nascida em abril de 2013, com a ideia de um cog
 - **Google Maps** - Mapa de localização da empresa
 - **WhatsApp API** - Integração para contato direto
 
+## 🌐 Deploy
+
+O projeto está otimizado para deploy em:
+- **Vercel** 
+
+
 ## 📁 Estrutura do Projeto
 
 ```
@@ -60,41 +66,6 @@ cogumelo-filmes/
 ```
 
 
-## 📱 Seções do Site
-
-### 🏠 Hero
-- Vídeo de fundo com overlay
-- Título principal e descrição
-- Call-to-action para contato
-
-### ℹ️ Sobre
-- História da empresa desde 2013
-- Descrição dos valores e missão
-- Imagem representativa da equipe
-
-### 🎯 Serviços
-- **Produção Publicitária**: Filmes para marcas
-- **Produção Independente**: Suporte a cineastas
-- **Pós-Produção**: Edição, color grading e VFX
-
-### 🎬 Portfólio
-- Galeria de trabalhos realizados
-- Modal de reprodução de vídeos
-- Links para redes sociais
-
-### 📞 Contato
-- Botão direto para WhatsApp
-- Integração com API do WhatsApp
-- Mensagem pré-formatada
-
-### 🗺️ Footer
-- Mapa da localização (Uberlândia, MG)
-- Informações de contato
-- Links para redes sociais
-- Copyright
-
-## 🎨 Design System
-
 ### Cores
 - **Fundo Principal**: `#0A0A0A` (Preto)
 - **Fundo Secundário**: `#1A1A1A` (Cinza escuro)
@@ -106,12 +77,6 @@ cogumelo-filmes/
 - **Fonte Principal**: Poppins (300-900)
 - **Títulos**: Poppins Bold/Extrabold
 - **Corpo**: Poppins Regular
-
-
-## 🌐 Deploy
-
-O projeto está otimizado para deploy em:
-- **Vercel** 
 
 
 ## 📄 Licença
